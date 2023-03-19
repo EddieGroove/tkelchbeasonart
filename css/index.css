@@ -1,16 +1,15 @@
 .banner {
     height: 400px;
     width: 33.33%;
-    position: fixed;
+    position: absolute;
     background-image: url("../artwork/carnival_gus");
     background-size: cover;
+    opacity: 45%;
 }
-
 #img2.banner {
     background-image: url("../artwork/moon_shrooms");
     margin-left: 33.33%;
 }
-
 #img3.banner {
     background-image: url("../artwork/alien_solstice5x7");
     margin-left: 66.67%;
@@ -21,4 +20,34 @@
 }
 
 
+.head {
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+    font-size: 65px;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+h2.head {
+    padding-top: 300px;
+    margin-top: -1%;
+}
+h1.head {
+    font-size: 100px;
+    font-weight: 500;
+}
+#explore {
+    border-bottom-style: double;
+    border-color: peru;
+}
 
+#samples {
+    margin-top: 50px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#more {
+    text-align: center;
+}
