@@ -1,0 +1,24 @@
+.banner {
+    height: 400px;
+    width: 33.33%;
+    position: fixed;
+    background-image: url("../artwork/carnival_gus");
+    background-size: cover;
+}
+
+#img2.banner {
+    background-image: url("../artwork/moon_shrooms");
+    margin-left: 33.33%;
+}
+
+#img3.banner {
+    background-image: url("../artwork/alien_solstice5x7");
+    margin-left: 66.67%;
+}
+#fullbanner {
+    margin-top: -.5%;
+    margin-left: -.4%;
+}
+
+
+
