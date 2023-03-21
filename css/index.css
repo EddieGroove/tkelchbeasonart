@@ -23,31 +23,46 @@
 .head {
     text-align: center;
     position: relative;
-    font-weight: 600;
-    font-size: 65px;
+    font-weight: 100;
+    font-size: 100px;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 }
 h2.head {
-    padding-top: 300px;
+    color: #000000;
+    padding-top: 275px;
     margin-top: -1%;
 }
-h1.head {
-    font-size: 100px;
-    font-weight: 500;
-}
-#explore {
+
+.border {
     border-bottom-style: double;
     border-color: peru;
 }
 
-#samples {
-    margin-top: 50px;
-}
-a {
-    color: black;
-    text-decoration: none;
+#google {
+    width: 350px;
+    height: auto;
 }
 
-#more {
+a {
+    transition: all 300ms;
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+}
+a:hover {
+    font-size: 20px;
+    font-size-adjust: 20px;
+}
+#samples {
+    height: 400px;
+    margin-top: 55px;
+}
+.samp {
+    margin-left: 10%;
+    position: relative;
+    float: left;
+}
+
+#more, .samp {
     text-align: center;
 }
