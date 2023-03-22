@@ -32,6 +32,11 @@ h2.head {
     padding-top: 275px;
     margin-top: -1%;
 }
+h1.head {
+    /* background-image: canvas; */
+    /* inline block for dropcap */
+    font-family: monospace
+}
 
 .border {
     border-bottom-style: double;
@@ -41,6 +46,7 @@ h2.head {
 #google {
     width: 350px;
     height: auto;
+    padding-bottom: 20px;
 }
 
 a {
@@ -54,8 +60,10 @@ a:hover {
     font-size-adjust: 20px;
 }
 #samples {
-    height: 400px;
+    width: 100%;
+    display: inline-block;
     margin-top: 55px;
+    padding-bottom: 20px;
 }
 .samp {
     margin-left: 10%;
