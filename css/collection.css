@@ -1,35 +1,36 @@
 #samples {
-    width: 100%;
-    display: inline-block;
-    margin-top: 55px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px 100px;
+    padding: 55px;
 }
 .samp {
-    margin-left: 10%;
-    position: relative;
-    float: left;
+    flex: auto;
+    text-align: center;
 }
 
-a {
+a, li > a {
     transition: all 300ms;
     color: black;
     text-decoration: none;
     font-weight: 100;
 }
 a:hover {
-    font-size: 20px;
-    font-size-adjust: 20px;
+    font-size: 19.5px;
+    font-size-adjust: 19.5px;
 }
-
+li > a:hover {
+    font-size: 16.5px;
+    font-size-adjust: 16.5px;
+}
 .border {
     border-bottom-style: double;
     border-color: peru;
 }
-#about {
-    float: left;
-    margin-left: 25%;
-}
-#more {
-    float: right;
-    margin-right: 25%;
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
