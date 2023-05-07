@@ -46,9 +46,10 @@ h1.head {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #about > p {
-    width: 750px;
+    width: 650px;
     padding: 15px 60px;
     font-size: 40px;
 }
@@ -78,7 +79,7 @@ li > a:hover {
     flex-wrap: wrap;
     align-items: center;
     gap: 40px 100px;
-    padding: 55px;
+    padding: 55px 10px;
 }
 .samp {
     flex: auto;
