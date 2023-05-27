@@ -49,10 +49,11 @@ h1.head {
     flex-wrap: wrap;
 }
 #about > p {
-    width: 650px;
+    max-width: 650px;
     padding: 15px 60px;
     font-size: 40px;
 }
+
 #google {
     width: 350px;
     height: auto;
