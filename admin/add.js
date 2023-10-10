@@ -1,10 +1,5 @@
 const submit = document.querySelector('#submit');
 
-// export * from "./package.json" assert {type: "json"};
-
-import admin from './package.json' assert { type: "json" };
-// import {fs as fs} from './package.json' assert { type: "json" };
-
 
 submit.addEventListener('click', () => {
 // create html file and input info
@@ -48,28 +43,14 @@ submit.addEventListener('click', () => {
     
     //tidy up
     window.URL.revokeObjectURL(docUrl);
-    
-    //move file1.htm from 'test/' to 'test/dir_1/'
-    moveFile('./downloads/test.html', './tkelchbeasonart/admin');
+
+    // moveFile('./downloads/test.html', './tkelchbeasonart/admin');
     // newPage.fileSystemEntry.moveTo("~Tammy-Beason/pages");
     // newPage.moveTo("../pages");
-
+    fsPromises.rename('./downloads/test.html', './tkelchbeasonart/admin');
+    
 
 });
-
-
-var moveFile = (file, dir2)=>{
-
-  
-    //gets file name and adds it to dir2
-    var f = admin.basename(file);
-    var dest = admin.resolve(dir2, file);
-  
-    admin.rename(file, dest, (err)=>{
-      if(err) throw err;
-      else console.log('Successfully moved');
-    });
-  };
   
 
   
